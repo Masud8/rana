@@ -16,6 +16,11 @@
         <th> Last_name</th>
         <th> Instrument</th>
     </tr>
+     <tr>
+        <th> First_name</th>
+        <th> Last_name</th>
+        <th> Instrument</th>
+    </tr>
     {% for row in musician %}
     <tr>
         <td>{{ row.first_name}}</td>
@@ -23,6 +28,7 @@
         <td>{{ row.instrument}}</td>
     </tr>
     {% endfor %}
+     
 </table>
 <!--- <img src="{% static ' image/1.jpg'%}"> --->
 </body>
